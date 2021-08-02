@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+}
+
+nav{
+    background-color: rgba(6,211,90,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-bottom: .5%;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ctr{
+    width: 75%;
+    height: 78vh;
+    margin: auto;
+    border: 1px solid grey;
+    overflow-y: auto;
+}
+.ctr h3{
+    height: 7vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    height: 65vh;
+    /* padding: 33px;
+    margin-bottom: 23px; */
+}
+.message{
+    width: 25%;
+    padding: 10px;
+    margin: 17px 12px;
+    /* border: 1px solid grey; */
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+.left{
+    background-color: rgba(235,235,235,255);
+    float: left;
+    clear: both;
+}
+.right{
+    background-color: rgba(6,211,90,255);
+    color: white;
+    float: right;
+    clear: both;
+}
+.mid{
+    margin: 3px;
+    padding: 3px;
+    clear: both;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8rem;
+    color: grey;
+}
+
+/* .send{
+    display:block;
+} */
+#send-container{
+    width: 75%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: auto;
+    border: 1px solid grey;
+}
+#messageInp{
+    padding-left: 5px;
+    width: 85%;
+    font-size: 22px;
+}
+.btn{
+    background-color: rgba(6,211,90,255);
+    color: white;
+    width: 15%;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: rgb(66, 169, 37);
+    color: brown;
+    font-size: 17px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin-top: .5%;
+    background-color: rgba(6,211,90,255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}

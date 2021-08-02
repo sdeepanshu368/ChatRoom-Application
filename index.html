@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatRoom</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav>
+        <!-- <img class="logo" src="chat.png" alt=""> -->
+        <h1>Realtime Node Socket.io ChatRoom</h1>
+    </nav>
+
+    <div class="ctr">
+        <h3>ChatBox</h3>
+        <div class="container"></div> 
+    </div>
+    
+    <div class="send">
+        <form action="#" id="send-container">
+            <!-- <input type="text" name="messageInp" id="messageInp" onkeyup="success()" placeholder="Type your message here"> -->
+            <!-- <button class="btn" id="button" type="submit" disabled>Send</button> -->
+            <input type="text" name="messageInp" id="messageInp" placeholder="Type your message here" oninvalid="this.setCustomValidity('Put some message in there!')" oninput="setCustomValidity('')" required>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    
+
+    <div class="footer">
+        Copyright © 2021 ChatRoom All Rights Reserved
+    </div>
+
+</body>
+</html>
